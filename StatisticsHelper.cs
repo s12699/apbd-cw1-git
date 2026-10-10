@@ -9,4 +9,17 @@ public static class StatisticsHelper
         }
         return sum;
     }
+
+    public static double CalculateAverage(int[] numbers){
+	    
+	    int sum = 0;
+	    foreach (int number in numbers){
+		    sum += number;
+	    }
+	    double avg = (double)sum / numbers.Length;
+
+	    return avg;
+    }
+
+
 }
