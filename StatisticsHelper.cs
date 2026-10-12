@@ -21,5 +21,15 @@ public static class StatisticsHelper
 	    return avg;
     }
 
+    public static int CalculateMax(int[] numbers)
+    {
+	    int max = number[0];
+	    foreach (int number in numbers){
+		    if(max > number) 
+			    max = number;
+	    }
+	    return max;
+
+    }
 
 }
