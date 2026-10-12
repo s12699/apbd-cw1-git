@@ -23,9 +23,9 @@ public static class StatisticsHelper
 
     public static int CalculateMax(int[] numbers)
     {
-	    int max = number[0];
+	    int max = numbers[0];
 	    foreach (int number in numbers){
-		    if(max > number) 
+		    if(number > max) 
 			    max = number;
 	    }
 	    return max;
